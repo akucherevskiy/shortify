@@ -53,4 +53,7 @@ short consist of 7 characters, so we have 62^7 unique combinations that system c
 *another idea to speed up redirecting was using AMQP instead of saving statistic sync and wait for DB answer, 
 instead of that send event, redirect and recalculate count in consumer*
 
-*did not spent time on tests but system has basic exeptions like 400 response etc *
+*did not spent time on tests but system has basic exeptions like 400 response etc*
+
+
+#####Updates - updated len of full size of URL - up to 65535
